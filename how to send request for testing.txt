@@ -1,0 +1,13 @@
+1)to create the url's shortenend version -> send a post request on -> http://localhost:8001/url  
+ ,-> with body as json and inside the json the url that you want to shorten 
+ (if you get a successful response copy the id that you get in the response) 
+
+
+2)now to check if the shortenend url is working we simply send a get request on the same route just by replacing the url in it with the 
+id we got from the post request ->http://localhost:8001/Z6afLHfLV
+(if in the response the desired site opens up we are good to go )
+
+
+3)Now to get analytics copy the unique id and hit a get request on -> http://localhost:8001/url/analytics/ paste your copied id here
+example-> http://localhost:8001/url/analytics/FNErs1O5S
+(and this will give us the analytics and its details all including how many clicks on the link and etc )
