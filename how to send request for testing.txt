@@ -1,3 +1,5 @@
+Note for the project to run the backend connection must be established so inorder for you to run replace the connection driver url for mongoDB
+
 1)to create the url's shortenend version -> send a post request on -> http://localhost:8001/url  
  ,-> with body as json and inside the json the url that you want to shorten 
  (if you get a successful response copy the id that you get in the response) 
